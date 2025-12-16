@@ -11,3 +11,5 @@ Hello
     allowfullscreen>
   </iframe>
 </div>
+[Open interactive product tour →](https://pagerduty.navattic.com/pagerduty-advance)
+
