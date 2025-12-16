@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/marks-repo/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/instructor-led-training/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/knowledge-base/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/technical-writing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marks-repo/ux-writing/</loc>
+  </url>
+</urlset>
