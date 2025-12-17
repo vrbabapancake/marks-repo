@@ -2,5 +2,6 @@
 title: "UX Writing"
 ---
 ## Product Tours
-[Open interactive product tour →](https://pagerduty.navattic.com/pagerduty-advance)
+[PagerDuty Advance product tour →](https://pagerduty.navattic.com/pagerduty-advance)
+[Slack and PagerDuty product tour](https://pagerduty.navattic.com/guided_remediation_slack)
 
