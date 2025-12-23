@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vrbabapancake.github.io/marks-repo/categories/</loc>
+    <loc>http://localhost:1313/marks-repo/categories/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/e-learning/</loc>
+    <loc>http://localhost:1313/marks-repo/e-learning/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/instructor-led-training/</loc>
+    <loc>http://localhost:1313/marks-repo/instructor-led-training/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/</loc>
+    <loc>http://localhost:1313/marks-repo/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/tags/</loc>
+    <loc>http://localhost:1313/marks-repo/tags/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/technical-writing/</loc>
+    <loc>http://localhost:1313/marks-repo/technical-writing/</loc>
   </url><url>
-    <loc>https://vrbabapancake.github.io/marks-repo/ux-writing/</loc>
+    <loc>http://localhost:1313/marks-repo/ux-writing/</loc>
   </url>
 </urlset>
