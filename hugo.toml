@@ -1,3 +1,8 @@
 baseURL = "https://vrbabapancake.github.io/marks-repo/"
 languageCode = "en-us"
 title = "Mark's Repo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
