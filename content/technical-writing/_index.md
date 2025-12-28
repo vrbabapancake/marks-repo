@@ -1,6 +1,7 @@
 ---
 title: "Technical Writing"
 ---
+I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, effective one-page handouts.
 
 Sample Job Aid:
 

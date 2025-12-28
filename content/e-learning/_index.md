@@ -1,7 +1,7 @@
 ---
 title: "e-Learning"
 ---
-## I’ve developed e-learning courses across a wide range of subjects, including AI in incident management and drone operations.
+I’ve developed e-learning courses across a wide range of subjects, including AI in incident management and drone operations.
 
 AI in Incident Management - PagerDuty
 
