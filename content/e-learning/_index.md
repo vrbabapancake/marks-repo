@@ -1,7 +1,6 @@
 ---
 title: "e-Learning"
 ---
-
 AI in Incident Management - PagerDuty
 
 <iframe 
