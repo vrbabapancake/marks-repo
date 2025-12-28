@@ -3,7 +3,7 @@ title: "Technical Writing"
 ---
 I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, effective one-page handouts.
 
-Sample Job Aid:
+### Sample Job Aid:
 
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/TTC - Job Aid.pdf"
@@ -12,7 +12,7 @@ Sample Job Aid:
   style="border: none;">
 </iframe>
 
-Knowledge Base Article: 
+### Knowledge Base Article: 
 
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - KB Article Example.pdf"
@@ -21,7 +21,7 @@ Knowledge Base Article:
   style="border: none;">
 </iframe>
 
-PDF Handout:
+### PDF Handout:
 
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - One Page Handout.pdf"
