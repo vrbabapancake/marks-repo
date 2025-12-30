@@ -17,7 +17,7 @@ In 2018, I created this job aid for the Toronto Transit Commission while working
   style="border: none;">
 </iframe>
 
-### CrwodRiff Knowledge Base
+### CrowdRiff Knowledge Base
 From 2020 to 2024, I was responsible for managing the company knowledge base at CrowdRiff, including writing, organizing, and maintaining customer-facing support content in Zendesk. This page is one example of the practical, solution-focused articles I created to help users resolve issues and get more value from the platform.<iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - KB Article Example.pdf"
   width="100%"
