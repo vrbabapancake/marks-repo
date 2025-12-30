@@ -1,6 +1,6 @@
 baseURL = "https://vrbabapancake.github.io/marks-repo/"
 languageCode = "en-us"
-title = "Mark's Repo"
+title = "Mark's Site"
 
 [markup]
   [markup.goldmark]
