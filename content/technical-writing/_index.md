@@ -3,6 +3,11 @@ title: "Technical Writing"
 ---
 I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, effective one-page handouts.
 
+### PagerDuty Knowledge Base
+I helped build and maintain the PagerDuty Knowledge Base, shaping structure,
+strategy, and customer-facing product documentation.
+[View the Knowledge Base →](https://support.pagerduty.com/main/docs/introduction)
+
 ### Sample Job Aid
 In 2018, I created this job aid for the Toronto Transit Commission while working as a Junior Technical Writer. It provides clear, step-by-step safety guidance for operating an oxy-acetylene torch, helping ensure safe, compliant, and consistent work practices.
 <iframe
@@ -12,7 +17,7 @@ In 2018, I created this job aid for the Toronto Transit Commission while working
   style="border: none;">
 </iframe>
 
-### Knowledge Base Article
+### CrwodRiff Knowledge Base
 From 2020 to 2024, I was responsible for managing the company knowledge base at CrowdRiff, including writing, organizing, and maintaining customer-facing support content in Zendesk. This page is one example of the practical, solution-focused articles I created to help users resolve issues and get more value from the platform.<iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - KB Article Example.pdf"
   width="100%"
