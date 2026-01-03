@@ -1,44 +1,262 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{{ .Site.Title }}</title>
-<style>
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;background:#0b1220;color:#e6edf7}
-  .wrap{max-width:960px;margin:60px auto;padding:0 20px}
-  h1{margin:0 0 10px;font-size:40px}
-  h1 a {
-  color: inherit;
-  text-decoration: none;}
-h1 a:hover {
-  text-decoration: underline;}
-  p {margin:0 0 24px;opacity:.8}
-  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-  a.card{display:block;padding:22px;border-radius:16px;text-decoration:none;color:inherit;background:#121b2e;border:1px solid rgba(255,255,255,.08)}
-  a.card:hover{border-color:rgba(78,161,255,.55)}
-  @media (max-width:680px){.grid{grid-template-columns:1fr}h1{font-size:34px}}
-</style>
-</head>
-<body>
-  <div class="wrap">
-   <h1>
-  <a href="https://www.linkedin.com/in/markphilp/" target="_blank" rel="noopener noreferrer">
-    {{ .Site.Title }}
-  </a>
-</h1>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ .Site.Title }}</title>
 
-    <p>
-      I’m a technical writer and educator with experience across technical documentation, instructor-led training, UX writing, and e-learning development. Explore each category to see examples of my work, including knowledge base design, classroom and on-site training, UX-focused product tours, and online learning experiences across diverse subjects.</p>
-    <p>
-      This site is built in <b>Github</b> using <b>Hugo</b> and a <b>docs-as-code approach</b>, reflecting the same structured, scalable, and developer-aligned workflows I use in my professional projects.
-    </p>
-    <div class="grid">
-      <a class="card" href="{{ "technical-writing/" | relURL }}"><h2>Technical Writing</h2></a>
-      <a class="card" href="{{ "ux-writing/" | relURL }}"><h2>UX Writing</h2></a>
-      <a class="card" href="{{ "instructor-led-training/" | relURL }}"><h2>Instructor Led Training</h2></a>
-      <a class="card" href="{{ "e-learning/" | relURL }}"><h2>e-Learning</h2></a>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#0f172a;
+      --muted:rgba(15,23,42,.70);
+      --border:rgba(15,23,42,.10);
+      --shadow:0 18px 60px rgba(2,6,23,.10);
+      --shadow-soft:0 10px 30px rgba(2,6,23,.08);
+      --radius:22px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container{max-width:1120px;margin:0 auto;padding:0 22px}
+
+    /* Top bar */
+    .topbar{
+      position:sticky; top:0;
+      backdrop-filter:saturate(160%) blur(10px);
+      background:rgba(255,255,255,.70);
+      border-bottom:1px solid rgba(15,23,42,.06);
+      z-index:20;
+    }
+    .topbar-inner{
+      display:flex; align-items:center; gap:18px;
+      padding:14px 0;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      font-weight:900; letter-spacing:.2px;
+      text-decoration:none; color:inherit;
+    }
+    .brand svg{width:22px;height:22px}
+
+    .spacer{flex:1}
+
+    .iconrow{display:flex; align-items:center; gap:10px}
+    .iconbtn{
+      width:36px;height:36px;border-radius:14px;
+      border:1px solid rgba(15,23,42,.10);
+      background:#fff;
+      display:grid;place-items:center;
+      box-shadow: 0 8px 22px rgba(2,6,23,.06);
+      text-decoration:none;
+      color:inherit;
+    }
+    .iconbtn:hover{border-color:rgba(59,130,246,.35)}
+    .iconbtn svg{width:18px;height:18px}
+
+    /* Hero */
+    .hero{
+      padding:58px 0 22px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero::before{
+      content:"";
+      position:absolute; inset:-120px -80px auto auto;
+      width:720px;height:520px;
+      background: radial-gradient(closest-side, rgba(59,130,246,.26), rgba(99,102,241,.18), rgba(168,85,247,.10), rgba(255,255,255,0));
+      filter: blur(4px);
+      transform: rotate(-8deg);
+      pointer-events:none;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:34px;
+      align-items:center;
+    }
+
+    .headline{
+      margin:0 0 12px;
+      font-size:68px;
+      line-height:1.0;
+      letter-spacing:-1.2px;
+      font-weight:900;
+      background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 45%, #7dd3fc 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    .subhead{
+      margin:0;
+      font-size:20px;
+      color: var(--muted);
+      font-weight:650;
+      max-width: 48ch;
+    }
+
+    /* Big play graphic (optional, like screenshot) */
+    .playwrap{
+      position:relative;
+      display:grid;
+      place-items:center;
+      min-height:320px;
+    }
+    .glow{
+      position:absolute;
+      width:360px;height:360px;border-radius:999px;
+      background: radial-gradient(circle at 30% 30%, rgba(59,130,246,.45), rgba(168,85,247,.22), rgba(255,255,255,0) 65%);
+      filter: blur(12px);
+    }
+    .play{
+      position:relative;
+      width:230px;height:230px;
+      border-radius:28px;
+      background: linear-gradient(135deg, rgba(59,130,246,.20), rgba(168,85,247,.16));
+      box-shadow: var(--shadow);
+      display:grid; place-items:center;
+    }
+    .play svg{width:120px;height:120px; filter: drop-shadow(0 18px 20px rgba(2,6,23,.18))}
+    .play::after{
+      content:"";
+      position:absolute; inset:-24px;
+      border-radius:40px;
+      background: radial-gradient(circle at 50% 40%, rgba(59,130,246,.25), rgba(168,85,247,.18), rgba(255,255,255,0) 70%);
+      filter: blur(10px);
+      z-index:-1;
+    }
+
+    /* Cards */
+    .browse{
+      padding:10px 0 70px;
+    }
+    .browse-title{
+      text-align:center;
+      font-weight:800;
+      color: rgba(15,23,42,.72);
+      margin:18px 0 18px;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap:16px;
+    }
+    .card{
+      text-decoration:none; color:inherit;
+      border:1px solid rgba(15,23,42,.10);
+      background:#fff;
+      border-radius:22px;
+      padding:18px;
+      box-shadow: 0 12px 30px rgba(2,6,23,.06);
+      transition: transform .10s ease, border-color .12s ease, box-shadow .12s ease;
+      min-height:148px;
+    }
+    .card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(59,130,246,.35);
+      box-shadow: 0 18px 46px rgba(2,6,23,.10);
+    }
+    .card h3{margin:0 0 8px; font-size:16px; font-weight:900}
+    .card p{margin:0; color:rgba(15,23,42,.62); font-size:13.5px; line-height:1.35}
+
+    @media (max-width: 980px){
+      .hero-grid{grid-template-columns: 1fr; }
+      .playwrap{min-height:240px}
+      .headline{font-size:56px}
+      .cards{grid-template-columns: repeat(2, minmax(0,1fr));}
+    }
+    @media (max-width: 560px){
+      .headline{font-size:44px}
+      .subhead{font-size:18px}
+      .cards{grid-template-columns: 1fr;}
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="{{ "/" | relURL }}">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" opacity=".35"/>
+            <path d="M10 8.5v7l6-3.5-6-3.5z" fill="currentColor"/>
+          </svg>
+          <span>{{ .Site.Title }}</span>
+        </a>
+
+        <div class="spacer"></div>
+
+        <div class="iconrow">
+          <a class="iconbtn" href="https://www.linkedin.com/in/markphilp/" target="_blank" rel="noopener" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.45 20.45H17v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.5H9.67V9h3.3v1.56h.05c.46-.87 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.34v6.35ZM5.34 7.43A1.92 1.92 0 1 1 5.34 3.6a1.92 1.92 0 0 1 0 3.83ZM3.62 20.45h3.44V9H3.62v11.45Z"/>
+            </svg>
+          </a>
+
+          <a class="iconbtn" href="https://github.com/vrbabapancake" target="_blank" rel="noopener" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.35-1.17-3.35-1.17-.45-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.61.07-.61 1 .07 1.53 1.04 1.53 1.04.9 1.54 2.35 1.1 2.92.84.09-.66.35-1.1.64-1.36-2.21-.25-4.54-1.11-4.54-4.95 0-1.1.39-2 1.03-2.71-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.9-1.3 2.74-1.03 2.74-1.03.56 1.38.21 2.4.1 2.65.64.71 1.03 1.61 1.03 2.71 0 3.85-2.34 4.7-4.57 4.95.36.31.69.92.69 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <h1 class="headline">{{ .Site.Title }}</h1>
+            <p class="subhead">Placeholder text — add your one-line “what this site is” message here.</p>
+          </div>
+
+          <div class="playwrap" aria-hidden="true">
+            <div class="glow"></div>
+            <div class="play">
+              <svg viewBox="0 0 120 120" fill="none">
+                <path d="M48 36v48l40-24-40-24Z" fill="white"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="browse">
+      <div class="container">
+        <div class="browse-title">Browse categories ✨</div>
+
+        <div class="cards">
+          <a class="card" href="{{ "technical-writing/" | relURL }}">
+            <h3>Technical Writing</h3>
+            <p>Placeholder description.</p>
+          </a>
+
+          <a class="card" href="{{ "ux-writing/" | relURL }}">
+            <h3>UX Writing</h3>
+            <p>Placeholder description.</p>
+          </a>
+
+          <a class="card" href="{{ "instructor-led-training/" | relURL }}">
+            <h3>Instructor Led Training</h3>
+            <p>Placeholder description.</p>
+          </a>
+
+          <a class="card" href="{{ "e-learning/" | relURL }}">
+            <h3>e-Learning</h3>
+            <p>Placeholder description.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
