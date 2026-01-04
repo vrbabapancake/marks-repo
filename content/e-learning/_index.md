@@ -2,22 +2,6 @@
 title: "e-Learning"
 ---
 
-<style>
-.iframe-full {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
-.iframe-full iframe {
-  width: 100%;
-  height: 70vh;
-  min-height: 600px;
-  border: none;
-  display: block;
-}
-</style>
-
 I’ve developed e-learning courses across a wide range of subjects, including AI in incident management and drone operations.
 
 ### AI in Incident Management - PagerDuty
