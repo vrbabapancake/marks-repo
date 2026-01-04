@@ -13,8 +13,8 @@ In 2025, I developed a comprehensive e-learning course for PagerDuty demonstrati
     src="https://vrbabapancake.github.io/marks-repo/elearning/sample/"
     loading="lazy"
     title="AI in Incident Management - PagerDuty"
-    width="100%"
-    height="700"
+    width="130%"
+    height="800"
     style="border: none;">
   </iframe>
 </div>
@@ -27,8 +27,8 @@ In 2019, I developed a series of e-learning courses for Drone Delivery Canada fo
     src="https://vrbabapancake.github.io/marks-repo/elearning/sample2/"
     loading="lazy"
     title="RPA Storage - Drone Delivery Canada"
-    width="100%"
-    height="700"
+    width="130%"
+    height="800"
     style="border: none;">
   </iframe>
 </div>
