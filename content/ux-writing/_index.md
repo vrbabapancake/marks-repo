@@ -15,6 +15,7 @@ summary: "I create product tours for new software releases using UX writing best
 </style>
 
 ### Product Tours
+I create product tours for new software releases using UX writing best practices. 
 
 #### PagerDuty Advance
 <div class="tour-shot">
