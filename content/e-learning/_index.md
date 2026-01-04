@@ -2,6 +2,7 @@
 title: "e-Learning"
 ---
 
+
 I’ve developed e-learning courses across a wide range of subjects, including AI in incident management and drone operations.
 
 ### AI in Incident Management - PagerDuty
@@ -11,7 +12,10 @@ In 2025, I developed a comprehensive e-learning course for PagerDuty demonstrati
   <iframe
     src="https://vrbabapancake.github.io/marks-repo/elearning/sample/"
     loading="lazy"
-    title="AI in Incident Management - PagerDuty">
+    title="AI in Incident Management - PagerDuty"
+    width="100%"
+    height="700"
+    style="border: none;">
   </iframe>
 </div>
 
@@ -22,6 +26,9 @@ In 2019, I developed a series of e-learning courses for Drone Delivery Canada fo
   <iframe
     src="https://vrbabapancake.github.io/marks-repo/elearning/sample2/"
     loading="lazy"
-    title="RPA Storage - Drone Delivery Canada">
+    title="RPA Storage - Drone Delivery Canada"
+    width="100%"
+    height="700"
+    style="border: none;">
   </iframe>
 </div>
