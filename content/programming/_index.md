@@ -2,11 +2,11 @@
 title: "Programming"
 ---
 
-I enjoy building things beyond documentation. Here's a project I coded from scratch.
+I enjoy building things beyond documentation. Here's a project I coded with Claude.
 
 ### 6Clues — Trivia Game
 
-6Clues is a trivia game I designed and built. Each round gives you six clues that progressively reveal the answer — the earlier you guess correctly, the more points you earn.
+I used to host a pub movie trivia game called 6Clues. I used all the questions I made over the years to build this game. The game works like this: each round gives you six clues that progressively reveal the answer — the earlier you guess correctly, the more points you earn.
 
 <div style="margin-top: 24px;">
   <a href="https://vrbabapancake.github.io/6Clues/" target="_blank" rel="noopener noreferrer"
