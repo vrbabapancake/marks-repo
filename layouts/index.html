@@ -174,7 +174,7 @@
     }
     .cards{
       display:grid;
-      grid-template-columns: repeat(4, minmax(0,1fr));
+      grid-template-columns: repeat(5, minmax(0,1fr));
       gap:16px;
     }
     .card{
@@ -199,7 +199,7 @@
       .hero-grid{grid-template-columns: 1fr; }
       .playwrap{min-height:240px}
       .headline{font-size:56px}
-      .cards{grid-template-columns: repeat(2, minmax(0,1fr));}
+      .cards{grid-template-columns: repeat(3, minmax(0,1fr));}
     }
     @media (max-width: 560px){
       .headline{font-size:44px}
@@ -290,6 +290,11 @@
           <a class="card" href="{{ "e-learning/" | relURL }}">
             <h3>e-Learning</h3>
             <p>View samples of my e-learning content here.</p>
+          </a>
+
+          <a class="card" href="{{ "programming/" | relURL }}">
+            <h3>Programming</h3>
+            <p>Check out 6Clues, a trivia game I built.</p>
           </a>
         </div>
       </div>
