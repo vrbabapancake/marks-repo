@@ -197,13 +197,33 @@
 
     @media (max-width: 980px){
       .hero-grid{grid-template-columns: 1fr; }
-      .playwrap{min-height:240px}
+      .playwrap{
+        min-height:unset;
+        padding:32px 0 8px;
+        justify-items:center;
+      }
+      .glow{
+        width:240px;
+        height:240px;
+      }
+      .profile-wrap{
+        width:180px;
+        height:180px;
+      }
       .headline{font-size:56px}
     }
     @media (max-width: 560px){
       .headline{font-size:44px}
       .subhead{font-size:18px}
       .cards{grid-template-columns: 1fr;}
+      .glow{
+        width:200px;
+        height:200px;
+      }
+      .profile-wrap{
+        width:160px;
+        height:160px;
+      }
     }
   </style>
 </head>
