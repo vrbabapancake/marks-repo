@@ -5,18 +5,24 @@ I bring three years of experience as an IELTS instructor, two years as a college
 
 ### UX Writing Course Addendum
 This course addendum outlines the Fall 2025 term for the UX Writing class I teach. I designed the full curriculum and course content, ensuring students develop real-world UX writing skills through practical assignments, industry alignment, and inclusive content practices.
+<a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/instructor-led-training/TCN812_Addendum.pdf" target="_blank">📄 View PDF</a>
+<div class="pdf-embed">
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/instructor-led-training/TCN812_Addendum.pdf"
   width="100%"
   height="700"
   style="border: none;">
 </iframe>
+</div>
 
 ### Online User Assistance Course Addendum
 This course addendum outlines the Summer 2025 term for the Online User Assistance class I taught. In this course, we created an online help guide using MadCap Flare and applied technical writing best practices and structured authoring principles.
+<a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/instructor-led-training/TCN706__Addendum_Summer2025.pdf" target="_blank">📄 View PDF</a>
+<div class="pdf-embed">
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/instructor-led-training/TCN706__Addendum_Summer2025.pdf"
   width="100%"
   height="700"
   style="border: none;">
 </iframe>
+</div>
