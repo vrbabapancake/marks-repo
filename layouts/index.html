@@ -104,12 +104,14 @@
       display:grid;
       place-items:center;
       min-height:320px;
+      z-index:0;
     }
     .glow{
       position:absolute;
       width:360px;height:360px;border-radius:999px;
       background: radial-gradient(circle at 30% 30%, rgba(59,130,246,.45), rgba(168,85,247,.22), rgba(255,255,255,0) 65%);
       filter: blur(12px);
+      z-index:-1;
     }
     .play{
       position:relative;
@@ -203,10 +205,7 @@
         justify-items:center;
         order:-1;
       }
-      .glow{
-        width:240px;
-        height:240px;
-      }
+      .glow{ display:none; }
       .profile-wrap{
         width:180px;
         height:180px;
@@ -217,10 +216,6 @@
       .headline{font-size:40px}
       .subhead{font-size:17px}
       .cards{grid-template-columns: 1fr;}
-      .glow{
-        width:180px;
-        height:180px;
-      }
       .profile-wrap{
         width:140px;
         height:140px;
