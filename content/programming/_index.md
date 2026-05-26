@@ -2,7 +2,7 @@
 title: "Programming"
 ---
 
-I enjoy building things beyond documentation. Here's a project I coded with Claude.
+I enjoy building things beyond documentation. Here are some projects I made with Claude Code.
 
 ### 6Clues — Trivia Game
 
