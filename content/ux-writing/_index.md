@@ -37,4 +37,13 @@ This tour demonstrates how PagerDuty integrates with Slack, allowing teams to ma
 
 👉 [View the interactive tour →](https://pagerduty.navattic.com/guided_remediation_slack)
 
+---
 
+#### PagerDuty AI
+<div class="tour-shot">
+<img src="pagerduty-ai-tour-preview.png" alt="PagerDuty AI product tour preview" />
+</div>
+
+I built this interactive product tour to show where PagerDuty’s generative and agentic AI shows up across the incident workflow: during setup, while an incident is happening, and when measuring impact. It’s also packaged as a SCORM 1.2 module, so it can run inside an LMS.
+
+👉 [View the interactive tour →](pagerduty-ai-tour/)
