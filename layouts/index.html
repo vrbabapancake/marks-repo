@@ -349,7 +349,7 @@
             <div class="profile-wrap">
   <img 
     src="https://vrbabapancake.github.io/marks-repo/markprofile.jpeg" 
-    alt="Mark Philp, Technical Writer and Educator">
+    alt="Mark Philp, Technical Writer and Content Designer">
 </div>
 
           </div>
@@ -362,6 +362,18 @@
         <div class="browse-title">Browse categories ✨</div>
 
         <div class="cards">
+          <a class="card" href="{{ "e-learning/" | relURL }}">
+            <div class="card-icon">
+              <!-- Laptop -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="4" y="5" width="16" height="11" rx="1.5" stroke="currentColor" stroke-width="1.7"/>
+                <path d="M2 19h20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>e-Learning</h3>
+            <p>Self-paced PagerDuty courses on escalation policies, notification rules, and AI.</p>
+          </a>
+
           <a class="card" href="{{ "technical-writing/" | relURL }}">
             <div class="card-icon">
               <!-- Document -->
@@ -385,7 +397,7 @@
                 <path d="M13 12l6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
               </svg>
             </div>
-            <h3>UX Writing</h3>
+            <h3>Product Tours</h3>
             <p>Interactive product tours built with UX writing best practices.</p>
           </a>
 
@@ -401,18 +413,6 @@
             </div>
             <h3>Instructor Led Training</h3>
             <p>Course curricula for UX Writing and Online User Assistance.</p>
-          </a>
-
-          <a class="card" href="{{ "e-learning/" | relURL }}">
-            <div class="card-icon">
-              <!-- Laptop -->
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <rect x="4" y="5" width="16" height="11" rx="1.5" stroke="currentColor" stroke-width="1.7"/>
-                <path d="M2 19h20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <h3>e-Learning</h3>
-            <p>Self-paced courses on AI in incident management and drone operations.</p>
           </a>
 
           <a class="card" href="{{ "programming/" | relURL }}">
@@ -458,8 +458,8 @@
           </svg>
         </a>
       </div>
-      <p class="tagline">Technical Writer &amp; Educator</p>
-      <p>&copy; 2025 Mark Philp</p>
+      <p class="tagline">Technical Writer &amp; Content Designer</p>
+      <p>&copy; {{ now.Year }} Mark Philp</p>
     </div>
   </footer>
 

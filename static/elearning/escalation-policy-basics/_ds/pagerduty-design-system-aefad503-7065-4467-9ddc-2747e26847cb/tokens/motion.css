@@ -1,0 +1,15 @@
+/* Motion — easing + duration tokens, plus shared keyframes.
+   PagerDuty motion is quick and functional: short fades and
+   small translations, no bounce. */
+:root{
+  --ease-standard:cubic-bezier(0.2,0,0,1); /* @kind other */
+  --ease-out:cubic-bezier(0,0,0.2,1); /* @kind other */
+  --ease-in:cubic-bezier(0.4,0,1,1); /* @kind other */
+  --dur-fast:120ms; /* @kind other */
+  --dur-base:200ms; /* @kind other */
+  --dur-slow:320ms; /* @kind other */
+}
+@keyframes pd-spin{to{transform:rotate(360deg)}}
+@keyframes pd-fade-in{from{opacity:0}to{opacity:1}}
+@keyframes pd-pop-in{from{opacity:0;transform:translateY(4px) scale(0.98)}to{opacity:1;transform:none}}
+@keyframes pd-pulse{0%,100%{opacity:1}50%{opacity:.45}}

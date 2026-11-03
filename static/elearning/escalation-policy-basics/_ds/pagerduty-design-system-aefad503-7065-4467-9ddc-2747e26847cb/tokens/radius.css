@@ -1,0 +1,12 @@
+/* Corner radius. PagerDuty product UI is lightly rounded; brand
+   containers (buttons, cards) use 6-8px, pills fully round. */
+:root{
+  --radius-none:0;
+  --radius-sm:4px;
+  --radius-md:6px;
+  --radius-lg:8px;
+  --radius-xl:12px;
+  --radius-2xl:16px;
+  --radius-pill:999px;
+  --radius-circle:50%;
+}
