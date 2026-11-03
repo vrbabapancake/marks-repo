@@ -4,9 +4,17 @@ title: "Technical Writing"
 I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, effective one-page handouts.
 
 ### PagerDuty Knowledge Base
-I helped build and maintain the PagerDuty Knowledge Base, shaping structure,
-strategy, and customer-facing product documentation.
-[View the Knowledge Base →](https://support.pagerduty.com/main/docs/introduction)
+Since June 2024, I’ve been a Senior Technical Content Writer at PagerDuty. I own the customer-facing documentation at docs.pagerduty.com, along with PagerDuty’s e-learning, which was previously the work of a six-person team of knowledge base writers and e-learning developers.
+
+**Highlights**
+
+- **Built AI pipelines for docs.** I created AI pipelines and Claude skills that automate drafting, review, and maintenance, including turning Jira requests into review-ready drafts.
+- **Made style consistent at scale.** I encoded PagerDuty’s house style into reusable skills and linter rules, so every article follows the same standards.
+- **Moved the docs to docs-as-code.** I helped migrate the docs platform from ReadMe.io to a GitHub-based Next.js site, improving performance and making the content easier for AI assistants to find.
+- **Wrote for what users actually ask.** I use AI query data to find content gaps, prioritizing the questions users ask over what they search for.
+- **Documented major releases.** I partner with product managers and engineering teams to document major product launches.
+
+👉 [View the PagerDuty docs →](https://docs.pagerduty.com/)
 
 ### CrowdRiff Knowledge Base
 From 2020 to 2024, I was responsible for managing the company knowledge base at CrowdRiff, including writing, organizing, and maintaining customer-facing support content in Zendesk. This page is one example of the practical, solution-focused articles I created to help users resolve issues and get more value from the platform.
