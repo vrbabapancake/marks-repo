@@ -50,27 +50,3 @@ I create product tours for new software releases using UX writing best practices
 I built this interactive product tour to show where PagerDuty’s generative and agentic AI shows up across the incident workflow: during setup, while an incident is happening, and when measuring impact. It’s also packaged as a SCORM 1.2 module, so it can run inside an LMS.
 
 👉 [Open the tour full screen →](pagerduty-ai-tour/)
-
----
-
-#### PagerDuty Advance
-<div class="tour-embed">
-<iframe src="https://pagerduty.navattic.com/pagerduty-advance" title="PagerDuty Advance interactive product tour" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
-</div>
-<a class="tour-mobile" href="https://pagerduty.navattic.com/pagerduty-advance"><img src="https://vrbabapancake.github.io/marks-repo/ux-writing/pagerduty-advance-preview.png" alt="PagerDuty Advance product tour preview" /></a>
-
-I created this interactive product tour to showcase PagerDuty’s new AI features and give customers a realistic, hands-on preview of the experience before adopting the product.
-
-👉 [Open the tour full screen →](https://pagerduty.navattic.com/pagerduty-advance)
-
----
-
-#### Slack + PagerDuty
-<div class="tour-embed">
-<iframe src="https://pagerduty.navattic.com/guided_remediation_slack" title="Slack and PagerDuty interactive product tour" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
-</div>
-<a class="tour-mobile" href="https://pagerduty.navattic.com/guided_remediation_slack"><img src="https://vrbabapancake.github.io/marks-repo/ux-writing/slack-pagerduty-preview.png" alt="Slack and PagerDuty product tour preview" /></a>
-
-This tour demonstrates how PagerDuty integrates with Slack, allowing teams to manage incidents directly within chat.
-
-👉 [Open the tour full screen →](https://pagerduty.navattic.com/guided_remediation_slack)
