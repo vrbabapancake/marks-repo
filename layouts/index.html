@@ -232,6 +232,27 @@
     }
     .card-icon svg{width:22px;height:22px}
     .card h3{margin:0 0 8px; font-size:16px; font-weight:900}
+
+    /* Featured tile: spans the full row so the other six fill two even rows */
+    .card.featured{
+      grid-column: 1 / -1;
+      display:flex; align-items:center; gap:18px;
+      min-height:0;
+      padding:22px 24px;
+    }
+    .card.featured .card-icon{width:52px;height:52px;border-radius:14px;margin-bottom:0;flex:none}
+    .card.featured .card-icon svg{width:26px;height:26px}
+    .card.featured .featured-text{flex:1}
+    .card.featured h3{font-size:19px}
+    .card.featured p{font-size:14.5px}
+    .featured-cta{
+      flex:none;
+      font-weight:800; font-size:14px;
+      color:var(--accent);
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--icon-bg);
+    }
     .card p{margin:0; color:var(--card-muted); font-size:13.5px; line-height:1.35}
 
     /* Footer */
@@ -267,6 +288,7 @@
       .headline{font-size:40px}
       .subhead{font-size:17px}
       .cards{grid-template-columns: 1fr;}
+      .featured-cta{display:none}
       .profile-wrap{
         width:140px;
         height:140px;
@@ -362,6 +384,22 @@
         <div class="browse-title">Browse categories ✨</div>
 
         <div class="cards">
+          <a class="card featured" href="{{ "what-i-currently-do/" | relURL }}">
+            <div class="card-icon">
+              <!-- Briefcase -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/>
+                <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 12h18"
+                      stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="featured-text">
+              <h3>What I Currently Do</h3>
+              <p>An interactive look at my work at PagerDuty: what comes in, what I ship, and my toolkit.</p>
+            </div>
+            <span class="featured-cta" aria-hidden="true">Explore →</span>
+          </a>
+
           <a class="card" href="{{ "e-learning/" | relURL }}">
             <div class="card-icon">
               <!-- Laptop -->
@@ -385,7 +423,7 @@
               </svg>
             </div>
             <h3>Technical Writing</h3>
-            <p>Guides, knowledge bases, and handouts from PagerDuty, CrowdRiff, and the TTC.</p>
+            <p>Guides, knowledge bases, and job aids from PagerDuty, CrowdRiff, and the TTC.</p>
           </a>
 
           <a class="card" href="{{ "ux-writing/" | relURL }}">
