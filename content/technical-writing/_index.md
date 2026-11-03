@@ -19,10 +19,10 @@ Since June 2024, I’ve been a Senior Technical Content Writer at PagerDuty. I o
 ### CrowdRiff Knowledge Base
 From 2020 to 2024, I was responsible for managing the company knowledge base at CrowdRiff, including writing, organizing, and maintaining customer-facing support content in Zendesk. This page is one example of the practical, solution-focused articles I created to help users resolve issues and get more value from the platform.
 
-<a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - KB Article Example.pdf" target="_blank">📄 View PDF</a>
+<a class="pdf-link" href="CrowdRiff%20-%20KB%20Article%20Example.pdf" target="_blank">📄 View PDF</a>
 <div class="pdf-embed">
 <iframe
-  src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - KB Article Example.pdf"
+  src="CrowdRiff%20-%20KB%20Article%20Example.pdf"
   width="100%"
   height="700"
   style="border: none;">
@@ -32,10 +32,10 @@ From 2020 to 2024, I was responsible for managing the company knowledge base at 
 ### Sample Job Aid
 In 2019, I created this job aid for the Toronto Transit Commission while working as a Junior Technical Writer. It provides clear, step-by-step safety guidance for operating an oxy-acetylene torch, helping ensure safe, compliant, and consistent work practices. It was also the first piece of technical documentation I published in my career.
 
-<a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/technical-writing/TTC - Job Aid.pdf" target="_blank">📄 View PDF</a>
+<a class="pdf-link" href="TTC%20-%20Job%20Aid.pdf" target="_blank">📄 View PDF</a>
 <div class="pdf-embed">
 <iframe
-  src="https://vrbabapancake.github.io/marks-repo/technical-writing/TTC - Job Aid.pdf"
+  src="TTC%20-%20Job%20Aid.pdf"
   width="100%"
   height="700"
   style="border: none;">
