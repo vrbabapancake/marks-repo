@@ -30,7 +30,7 @@ From 2020 to 2024, I was responsible for managing the company knowledge base at 
 </div>
 
 ### Sample Job Aid
-In 2018, I created this job aid for the Toronto Transit Commission while working as a Junior Technical Writer. It provides clear, step-by-step safety guidance for operating an oxy-acetylene torch, helping ensure safe, compliant, and consistent work practices. It was also the first piece of technical documentation I published in my career.
+In 2019, I created this job aid for the Toronto Transit Commission while working as a Junior Technical Writer. It provides clear, step-by-step safety guidance for operating an oxy-acetylene torch, helping ensure safe, compliant, and consistent work practices. It was also the first piece of technical documentation I published in my career.
 
 <a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/technical-writing/TTC - Job Aid.pdf" target="_blank">📄 View PDF</a>
 <div class="pdf-embed">
