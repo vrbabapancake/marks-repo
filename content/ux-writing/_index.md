@@ -3,36 +3,43 @@ title: "Product Tours"
 summary: "I create product tours for new software releases using UX writing best practices, and I also teach a dedicated UX writing course."
 ---
 <style>
-/* Live, embedded tours. Wider than the text column so the tour UI has room. */
+/* Live, embedded tour. The tour is laid out at 1076x807 (the size it was
+   built for) and scaled down to 75%, so it takes less room without
+   breaking its layout. */
 .tour-embed{
-  width: min(1076px, calc(100vw - 44px));
-  aspect-ratio: 4 / 3;
+  --tour-scale: .75;
+  width: calc(1076px * var(--tour-scale));
+  height: calc(807px * var(--tour-scale));
   margin: 14px 0 18px;
-  border-radius: 16px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: 0 12px 30px rgba(2,6,23,.12);
   background: var(--card);
 }
 .tour-embed iframe{
-  width: 100%;
-  height: 100%;
+  width: 1076px;
+  max-width: none;   /* the site's iframe{max-width:100%} would squeeze the layout */
+  height: 807px;
   border: 0;
   display: block;
+  transform: scale(var(--tour-scale));
+  transform-origin: 0 0;
 }
 
-/* On phones the tours are too cramped to use inline,
+/* On narrower screens the scaled tour would be too small to use,
    so show the preview image as a link instead. */
 .tour-mobile{ display: none; }
 .tour-mobile img{
   width: 100%;
+  max-width: 720px;
   height: auto;
   display: block;
   margin: 14px 0 18px;
   border-radius: 16px;
   box-shadow: 0 12px 30px rgba(2,6,23,.12);
 }
-@media (max-width: 760px){
+@media (max-width: 860px){
   .tour-embed{ display: none; }
   .tour-mobile{ display: block; }
 }
