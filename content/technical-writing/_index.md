@@ -1,7 +1,7 @@
 ---
 title: "Technical Writing"
 ---
-I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, effective one-page handouts.
+I have broad experience in technical communication, including developing detailed guides, managing knowledge bases, and creating clear, practical job aids.
 
 ### PagerDuty Knowledge Base
 Since June 2024, I’ve been a Senior Technical Content Writer at PagerDuty. I own the customer-facing documentation at docs.pagerduty.com, along with PagerDuty’s e-learning, which was previously the work of a six-person team of knowledge base writers and e-learning developers.
@@ -36,19 +36,6 @@ In 2018, I created this job aid for the Toronto Transit Commission while working
 <div class="pdf-embed">
 <iframe
   src="https://vrbabapancake.github.io/marks-repo/technical-writing/TTC - Job Aid.pdf"
-  width="100%"
-  height="700"
-  style="border: none;">
-</iframe>
-</div>
-
-### PDF Handout
-This one-page PDF handout was created to address a common customer friction point around account connections. Designed to be friendly, clear, and reassuring, it provides practical steps and guidance to help users feel confident and supported throughout the process.
-
-<a class="pdf-link" href="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - One Page Handout.pdf" target="_blank">📄 View PDF</a>
-<div class="pdf-embed">
-<iframe
-  src="https://vrbabapancake.github.io/marks-repo/technical-writing/CrowdRiff - One Page Handout.pdf"
   width="100%"
   height="700"
   style="border: none;">
