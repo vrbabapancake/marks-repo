@@ -1,0 +1,103 @@
+/* PagerDuty color tokens.
+   Base palette = the 9 official brand colors (brand/colors/colors.css).
+   Neutrals + semantic aliases extend them for product UI. */
+:root{
+  /* ---- Brand palette (canonical hex from the brand repo) ---- */
+  --pd-green:#048a24;          /* Primary brand color */
+  --pd-dark-green:#005a2f;     /* Darker pairing for primary */
+  --pd-black:#000000;
+  --pd-white:#ffffff;
+  --pd-cosmic-ocean:#082b56;   /* Deep navy accent */
+  --pd-ultrateal:#006666;      /* Teal accent */
+  --pd-odins-beard:#e5f2e9;    /* Pale green tint */
+  --pd-electric-jade:#adf07e;  /* Bright highlight */
+  --pd-aurum:#ffe664;          /* Yellow accent */
+
+  /* ---- Green ramp (derived from --pd-green / --pd-dark-green) ---- */
+  --green-50:#e5f2e9;   /* = Odin's Beard */
+  --green-100:#c3e6cd;
+  --green-200:#8fd3a6;
+  --green-300:#4faa6f;
+  --green-400:#1a9440;
+  --green-500:#048a24;  /* = PagerDuty Green */
+  --green-600:#037320;
+  --green-700:#005a2f;  /* = Dark Green */
+  --green-800:#00431f;
+  --green-900:#012b16;
+
+  /* ---- Neutral ramp (cool gray, slight green cast to match brand) ---- */
+  --gray-0:#ffffff;
+  --gray-25:#fafbfa;
+  --gray-50:#f4f6f5;
+  --gray-100:#eaeeec;
+  --gray-200:#dbe1de;
+  --gray-300:#c2cbc7;
+  --gray-400:#98a49f;
+  --gray-500:#6c7873;
+  --gray-600:#4d5854;
+  --gray-700:#363f3c;
+  --gray-800:#232a27;
+  --gray-900:#141917;
+
+  /* ---- Status / semantic base colors (product incident model) ---- */
+  --red-100:#fde3e1;
+  --red-500:#d5202a;   /* Triggered / critical */
+  --red-700:#9c1119;
+  --orange-100:#ffe9d1;
+  --orange-500:#e8730c; /* Acknowledged / warning */
+  --orange-700:#a94f04;
+  --blue-100:#dbeafe;
+  --blue-500:#1f6fde;  /* Info */
+  --blue-700:#134a97;
+
+  /* ================= Semantic aliases ================= */
+  /* Text */
+  --text-primary:var(--gray-900);
+  --text-secondary:var(--gray-600);
+  --text-tertiary:var(--gray-500);
+  --text-disabled:var(--gray-400);
+  --text-on-dark:var(--pd-white);
+  --text-on-brand:var(--pd-white);
+  --text-link:var(--pd-dark-green);
+  --text-link-hover:var(--pd-green);
+
+  /* Surfaces */
+  --surface-page:var(--gray-50);
+  --surface-card:var(--pd-white);
+  --surface-raised:var(--pd-white);
+  --surface-sunken:var(--gray-100);
+  --surface-inverse:var(--pd-cosmic-ocean);
+  --surface-brand:var(--pd-green);
+  --surface-brand-strong:var(--pd-dark-green);
+  --surface-brand-subtle:var(--pd-odins-beard);
+  --surface-nav:var(--green-900);
+
+  /* Borders */
+  --border-subtle:var(--gray-200);
+  --border-default:var(--gray-300);
+  --border-strong:var(--gray-400);
+  --border-brand:var(--pd-green);
+  --border-focus:var(--pd-green);
+
+  /* Interactive / brand actions */
+  --action-primary:var(--pd-green);
+  --action-primary-hover:var(--pd-dark-green);
+  --action-primary-active:var(--green-800);
+  --focus-ring:color-mix(in srgb, var(--pd-green) 40%, transparent);
+
+  /* Status semantic */
+  --status-triggered:var(--red-500);
+  --status-triggered-bg:var(--red-100);
+  --status-acknowledged:var(--orange-500);
+  --status-acknowledged-bg:var(--orange-100);
+  --status-resolved:var(--pd-green);
+  --status-resolved-bg:var(--pd-odins-beard);
+  --status-info:var(--blue-500);
+  --status-info-bg:var(--blue-100);
+
+  /* Accents for data viz / highlights */
+  --accent-jade:var(--pd-electric-jade);
+  --accent-aurum:var(--pd-aurum);
+  --accent-teal:var(--pd-ultrateal);
+  --accent-ocean:var(--pd-cosmic-ocean);
+}
