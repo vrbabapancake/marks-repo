@@ -13,7 +13,7 @@ title: "What I Currently Do"
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 0 0 1px var(--border), 0 12px 30px rgba(2,6,23,.12);
-  background: #fff;
+  background: var(--bg);
 }
 .graphic-embed iframe{
   width: 1600px;
