@@ -1,5 +1,5 @@
 ---
-title: "UX Writing"
+title: "Product Tours"
 summary: "I create product tours for new software releases using UX writing best practices, and I also teach a dedicated UX writing course."
 ---
 <style>
@@ -38,7 +38,6 @@ summary: "I create product tours for new software releases using UX writing best
 }
 </style>
 
-### Product Tours
 I create product tours for new software releases using UX writing best practices.
 
 #### PagerDuty AI
